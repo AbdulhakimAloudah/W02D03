@@ -1,8 +1,15 @@
+// const wee = document.querySelector("#eeee");
+// wee.addEventListener("click", function xx() {
+//   headings.forEach((naa) => {
+//   naa.style.fontSize = "40px";
+// });
+//const ak = document.querySelectorAll("div");
+//const ak = document.getElementById("btn")
+//const ak = document.getElementByTagName("h1")
 
-const naa = document.querySelector("#uu");
-naa.style.color = "red";
+const ak = document.querySelector("#btn");
+const ok = document.querySelector("#hh");
 
-//----
-const wee = document.querySelector("#eeee");
-wee.addEventListener("click", function xx(){
-  naa.style.fontSize="40px"});
+ak.addEventListener("click", () => {
+  ok.style.fontSize = "40px";
+});
